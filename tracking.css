@@ -1,0 +1,16 @@
+main {
+  display: flex;
+  flex-direction: column;
+}
+li {
+  list-style: none;
+}
+@media screen and (min-width: 700px){
+main {
+  display: flex;
+  flex-direction: row;
+}
+li {
+  margin-right: 40px;
+}
+}
